@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - node-sass > sass-graph > lodash:
+        patched: '2021-03-16T05:09:10.788Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2021-03-16T05:09:10.788Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2021-03-16T05:09:10.788Z'
